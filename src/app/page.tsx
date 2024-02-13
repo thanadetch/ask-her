@@ -45,19 +45,18 @@ export default function Home() {
                         My love,
                     </div>
                     <div>
-                        You are everything for me.
+                        You mean everything to me.
                     </div>
                 </div>
 
                 <div>
-                    I wish to wake up and see your beautiful face every morning.
+                    I wish to wake up every morning and see your beautiful face.
                 </div>
                 <div>
-                    I wish to share every moment, every experience with you, to hold
-                    your hand through life&apos;s journey,
+                    I wish to share every moment, every experience with you, and to hold your hand through life&apos;s journey.
                 </div>
                 <div>
-                    To take care you with all my heart and love you with all my soul.
+                    I wish to take care of you with all my heart and love you with all my soul..
                 </div>
 
                 <div className={'mt-2'}>
