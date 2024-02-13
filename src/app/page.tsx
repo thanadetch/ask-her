@@ -1,12 +1,8 @@
 "use client";
 import Image from "next/image";
-import Sticker1 from "../../public/sticker_1.gif";
-import Sticker2 from "../../public/sticker_2.gif";
 import Sticker3 from "../../public/sticker_3.gif";
 import Sticker4 from "../../public/sticker_4.gif";
 import React, {useState} from "react";
-import Lottie from 'react-lottie';
-import * as animationData from '../../public/Animation - 1707840381472.json'
 import Hearth from "@/app/components/Hearth";
 
 export default function Home() {
@@ -52,7 +48,7 @@ export default function Home() {
                 </div>
                 <div>
                     I crave to share every moment, every experience with you, to hold
-                    your hand through life's journey,
+                    your hand through life&apos;s journey,
                 </div>
                 <div>
                     To take care you with all my heart and love you with all my soul.
