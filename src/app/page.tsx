@@ -11,8 +11,8 @@ export default function Home() {
     return (
         <div className={"container relative bg-pink-50 h-lvh flex gap-4 flex-col items-center justify-center"}>
 
-            {isOk && <Hearth className={"absolute top-3 left-0"}/>}
-            {isOk && <Hearth className={"absolute top-3 right-0"}/>}
+            {isOk && <Hearth className={"absolute top-0 left-0"}/>}
+            {isOk && <Hearth className={"absolute top-0 right-0"}/>}
             <div className={"flex flex-col items-center justify-center"}>
                 {isOk === undefined && <Image src={Sticker4} className={"w-[100%] pb-7"} alt={"Sticker4"}/>}
                 {isOk === true && <Image src={Sticker3} className={"w-[85%]"} alt={"1"}/>}
@@ -39,7 +39,7 @@ export default function Home() {
                     </button>
                 </div>
             )}
-            {isOk && <div className={"flex flex-col gap-4 px-4 text-pink-400 text-3xl mt-[-50px]"}>
+            {isOk && <div className={"flex flex-col gap-4 px-4 text-pink-400 text-3xl mt-[-40px]"}>
                 <div>
                     My love, You are everything for me.
                 </div>
