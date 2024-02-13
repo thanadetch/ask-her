@@ -56,7 +56,7 @@ export default function Home() {
                     I wish to share every moment, every experience with you, and to hold your hand through life&apos;s journey.
                 </div>
                 <div>
-                    I wish to take care of you with all my heart and love you with all my soul..
+                    I wish to take care of you with all my heart and love you with all my soul.
                 </div>
 
                 <div className={'mt-2'}>
