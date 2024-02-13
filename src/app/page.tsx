@@ -41,20 +41,26 @@ export default function Home() {
             )}
             {isOk && <div className={"flex flex-col gap-4 px-4 text-pink-400 text-3xl mt-[-40px]"}>
                 <div>
-                    My love, You are everything for me.
+                    <div>
+                        My love,
+                    </div>
+                    <div>
+                        You are everything for me.
+                    </div>
                 </div>
+
                 <div>
                     I wish to wake up and see your beautiful face every morning.
                 </div>
                 <div>
-                    I crave to share every moment, every experience with you, to hold
+                    I wish to share every moment, every experience with you, to hold
                     your hand through life&apos;s journey,
                 </div>
                 <div>
                     To take care you with all my heart and love you with all my soul.
                 </div>
 
-                <div className={'mt-4'}>
+                <div className={'mt-2'}>
                     My dearest Janis :)
                 </div>
 
