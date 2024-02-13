@@ -39,7 +39,7 @@ export default function Home() {
                     </button>
                 </div>
             )}
-            {isOk && <div className={"flex flex-col gap-4 px-4 text-pink-400 text-3xl"}>
+            {isOk && <div className={"flex flex-col gap-4 px-4 text-pink-400 text-3xl mt-[-50px]"}>
                 <div>
                     My love, You are my everything.
                 </div>
