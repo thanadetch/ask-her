@@ -6,18 +6,14 @@ import React, {useState} from "react";
 import Hearth from "@/app/components/Hearth";
 import Lottie from "react-lottie";
 import * as animationData from "../../public/Animation - 1707878725365.json";
-import * as animationData2 from "../../public/Animation - 1707879114916.json";
 
 export default function Home() {
     const [isOk, setIsOk] = useState<boolean>();
     const [size, setSize] = useState<number>(1);
     return (
         <div className={"container relative bg-pink-50 h-lvh flex gap-4 flex-col items-center justify-center"}>
-            {isOk === undefined && <div className={"absolute top-12"}>
+            {isOk === undefined && <div className={"absolute"}>
                 <Lottie options={{animationData: animationData,}}/>
-            </div>}
-            {isOk === undefined && <div className={"absolute bottom-0"}>
-                <Lottie options={{animationData: animationData2, loop: false}}/>
             </div>}
             {isOk && <Hearth className={"absolute top-0 left-0"}/>}
             {isOk && <Hearth className={"absolute top-0 right-0"}/>}
